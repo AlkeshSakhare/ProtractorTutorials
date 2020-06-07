@@ -2,46 +2,57 @@
 
 https://www.protractortest.org
 
-Setups steps:
+How To Install Protractor on Windows
+---------------------------------
+Step 1 : Download and install node.js
 
+ https://nodejs.org/en/download/
 
-1.install node js
+Step 2 : Install Protractor
 
-2.open cmd and type below command:
+ npm install -g protractor
 
+protractor --version
 
-node -v
-
-
-npm install -g protractor
-
+Step 3 : Run command
 
 webdriver-manager update
 
+Step 4 : Find conf.js file at C:\Users\Admin\AppData\Roaming\npm\node_modules\protractor\example
 
-webdriver-manager start
+On cmd goto the location of this file and run command
 
-3.http://localhost:4444
+protractor conf.js
+ 
+ 
+STEPS:
+-------------
+Step 1: Download and install Visual Studio Code
 
-Setup finished.
+https://code.visualstudio.com/download#
 
+Step 2: Open VS Code
 
-Eclipse
+Step 3: Install support for JavaScript and TypeScript
 
+Step 4: Create a new folder and open in VS Code explorer
 
-Add Tern eclipse marketplace plugin
+Step 5: Inside ProtractorDemo folder create 2 folders
 
+conf
 
-Add Java project convert to tern and select 
+testcases
 
+Step 6 : Goto the folder 
 
-AngularJS,Browser,browser plugin, protractor, outline, completion guess,node js
+  C:\Users\admin\AppData\Roaming\npm\node_modules\protractor\example
 
+Copy conf.js into conf folder in VSCode
 
-Run protractor
+Copy example_spec.js into testcases folder in VSCode
 
+Step 7 : In conf.js update location of spec file
 
-1.open cmd project path
+Step 8 : Run conf.js in protractor
 
-
-2.type command protractor conf.js
+protractor conf.js 
